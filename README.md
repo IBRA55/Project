@@ -2,7 +2,7 @@ Dağıtık Abonelik Sistemi (Distributed Subscriber Service)
 Bu projede, hata toleransını sağlamak amacıyla sunucu tercihinde hata toleransı 1 prensibi benimsenmiştir.
 Proje hazırlıklarına ve kod yazımlarına son haftalarda başladığımız ve 2 kişi olmamız sebebi ile projemizde ki proto kodlarımızı tamamlayamadık.Bu yüzden projemizi elimizden geldiğince JSON kullanımına entegre etmeye çalıştık.
 Proje kapsamında, sunucular ve istemciler arasında JSON tabanlı iletişim sağlanmış olup, sunucu yönetimi ve kapasite sorgusu gibi işlemler kolayca gerçekleştirilebilir. 
-Sisteme özgün olarak, sunucular arasında yük dengeleme ve hata durumunda otomatik yönlendirme mekanizmaları eklenmiştir.
+Sisteme özgün olarak, sunucular arasında yük dengeleme ve hata durumunda otomatik yönlendirme mekanizmaları eklenmiştir.Projemizin yalnızca Server(1-2-3).java, admin.rb ve plootter.py kodlarını elimizden geldiğince tamamlamaya çalıştık.
 
 ServerX.java Özellikleri:
 
